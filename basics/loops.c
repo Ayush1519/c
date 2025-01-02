@@ -16,6 +16,11 @@ int main(){
         }
         printf("\n");
     }
+    
+   for( int i = 0 ; i < 6; i++) {
+    printf("****\n");
+   }
+
     int num = 5;
     printf("Factorial of %d is %d" ,num,factorial(num));
     return 0;
