@@ -21,6 +21,10 @@ int main(){
     printf("****\n");
    }
 
+   for i in range(1,5) {
+    printf(''.join(str(x) for x in range(1,i+1)));
+   }
+
     int num = 5;
     printf("Factorial of %d is %d" ,num,factorial(num));
     return 0;
