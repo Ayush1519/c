@@ -19,5 +19,25 @@ int main() {
 
     printf(" %d\n", size);
 
+    float originalamount,discountamount,finalamount;
+    scanf("%f",&originalamount);
+    
+    discountamount=0.00;
+    
+    if(originalamount<=1000){
+    }
+    else if(originalamount>1000&&originalamount<=5000){
+        discountamount=(originalamount * 10)/100;
+    }
+    else if(originalamount>5000){
+        discountamount=(originalamount * 20)/100;
+    }
+    
+    finalamount=originalamount-discountamount;
+    
+    printf("Original Amount: %.2f\n",originalamount);
+    printf("Discount: %.2f\n",discountamount);
+    printf("Final Amount: %.2f\n",finalamount);
+
     return 0;
 }
