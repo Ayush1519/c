@@ -39,5 +39,11 @@ int main() {
     printf("Discount: %.2f\n",discountamount);
     printf("Final Amount: %.2f\n",finalamount);
 
+    int P=0,T=0,Simple_Intersest=0;
+    float R=0;
+    scanf("%d%f%d",&P,&R,&T);
+    Simple_Intersest=(P*R*T)/100;
+    printf("%d",Simple_Intersest);
+
     return 0;
 }
