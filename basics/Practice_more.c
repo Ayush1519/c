@@ -52,7 +52,10 @@ int main() {
 
     printf("Sum of a+b is:%d",a+b);
 
-    
+    int arr[] = {5,4,9,7,8};
+
+    printf("Element is:%d",arr[2]);
+    printf("Element is:%d",arr[0]);
 
     return 0;
 }
