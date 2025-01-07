@@ -45,5 +45,14 @@ int main() {
     Simple_Intersest=(P*R*T)/100;
     printf("%d",Simple_Intersest);
 
+    int a;
+    int b;
+    scanf("%d",&a);
+    scanf("%d",&b);
+
+    printf("Sum of a+b is:%d",a+b);
+
+    
+
     return 0;
 }
