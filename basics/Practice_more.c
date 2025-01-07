@@ -57,5 +57,16 @@ int main() {
     printf("Element is:%d",arr[2]);
     printf("Element is:%d",arr[0]);
 
+    int marks;
+    scanf("%d",&marks);
+
+    if(marks>=90){
+        printf("Grade is:%d",A+);
+    }
+    else{
+        printf("Grade us"%d,A),
+    }
+    
+
     return 0;
 }
