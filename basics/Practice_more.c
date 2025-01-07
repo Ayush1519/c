@@ -66,7 +66,11 @@ int main() {
     else{
         printf("Grade us"%d,A),
     }
-    
+
+    int age;
+    scanf("%d",&age);
+
+    printf("Age is:%d",age);
 
     return 0;
 }
