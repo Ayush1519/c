@@ -30,6 +30,18 @@ int main() {
     // Count the number of vowels in the original string
     printf("Vowel count is: %d\n", countVowel(str));
 
+    int a;
+    scanf("%d",&a);
+    int b;
+    scanf("%d",&b);
+    int c;
+    c=a;
+    a=b;
+    b=c;
+    printf("Value of a is:%d\n",a);
+    printf("Value of b is:%d",b);
+    
+
     return 0;
 }
 
