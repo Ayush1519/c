@@ -40,6 +40,15 @@ int main() {
     b=c;
     printf("Value of a is:%d\n",a);
     printf("Value of b is:%d",b);
+
+    int a;
+    scanf("%d",&a);
+    int b;
+    scanf(%d,&b);
+    int sum = a + b;
+    int multiplication = a * b;
+    printf("Sum is:%d",sum);
+    printf("Multiplication is:%d",multiplication);
     
 
     return 0;
