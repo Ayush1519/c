@@ -87,4 +87,14 @@ int main() {
     printf("Age is:%d",age);
 
     return 0;
+
+    int x;
+    scanf("%d\n",&x);
+    int y;
+    scanf("%d\n",&y); 
+    int multiplication=x*y;
+    int division=x/y;
+
+    printf("Multiplcation of x with y gives:%d\n",multiplication);
+    printf("division of x with y gives:%d\n",division);
 }
