@@ -1,6 +1,20 @@
 #include<stdio.h>
+#include<string.h>
+
+struct student{
+    int roll;
+    float cgpa;
+    char name[100];
+};
 
 int main() {
+    struct student s1= {21,9.4, "Ayush"};
+    printf("student roll=%d\n",s1.roll);
+
+    struct student *ptr=&s1;
+    printf("student roll=%d\n",(*ptr).roll);
+
+
     int size = 0;
     scanf("%d", &size);
 
