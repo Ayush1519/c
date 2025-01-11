@@ -66,6 +66,24 @@ void slice(char str[], int n, int m) {
     puts(newstr);  // Print the sliced string
 }
 
+float originalamount,discountedamount,finalamount;
+int amount=0;
+
+if(amount<1000){
+}
+else if(amout>=1000&&amount<=5000){
+    discountedamount=(originalamount * 10)/100;
+}
+else if(amount>5000){
+    discountedamount=(originalamount *20)/100;
+}
+
+finalamount=originalamount-discountedamount;
+
+printf("Original amount= %d\n",originalamount);
+printf("Discounted amount= %d\n",discountedamount);
+printf("Final amount= %d\n",finalamount);
+
 int countVowel(char str[]) {
     int count = 0;
 
