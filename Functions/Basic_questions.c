@@ -5,6 +5,36 @@ void slice(char str[], int n, int m);
 int countVowel(char str[]);
 
 int main() {
+    int marks;
+    printf("Enter marks(0-100): ");
+    scanf("%d",&marks);
+
+    if(marks<=100&&marks>=95){
+        printf("Grade:A+");
+    }
+    else if(marks<95&&marks>=90){
+        printf("Grade:A");
+    }
+    else if(marks<90&&marks>=80){
+        printf("Grade:B");
+    }
+    else if(marks<80&&marks>=70){
+        printf("Garde:C");
+    }
+    else if(marks<70&&marks>=60){
+        printf("Grade:D");
+    }
+    else if(marks<60&&marks>=33){
+        printf("Grade:E");
+    }
+    else if(marks<33&&marks>=0){
+        printf("Fail");
+    }
+    else{
+        printf("Invaild marks entered");
+    }
+
+
     char str[100];
     char ch;
     int i = 0;
@@ -86,6 +116,8 @@ printf("Final amount= %d\n",finalamount);
 
 int countVowel(char str[]) {
     int count = 0;
+
+
 
     // Iterate through the string and count vowels
     for(int i = 0; str[i] != '\0'; i++) {
