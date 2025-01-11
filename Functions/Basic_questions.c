@@ -33,7 +33,9 @@ int main() {
     else{
         printf("Invaild marks entered");
     }
+    
 
+    printf("Ayush singh");
 
     char str[100];
     char ch;
