@@ -23,6 +23,14 @@ int main() {
         printf("%c\n",j);
 
     }
+    int i;
+    int j;
+    for(i=0;i<=4;i++){
+        for(j=0;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
