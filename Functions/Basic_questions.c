@@ -31,6 +31,12 @@ int main() {
         }
         printf("\n");
     }
+    for(i=4;i>=0;i--){
+        for(j=i;j>=0;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
