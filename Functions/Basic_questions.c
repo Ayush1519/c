@@ -5,6 +5,10 @@ void slice(char str[], int n, int m);
 int countVowel(char str[]);
 
 int main() {
+        int i=0;
+        for(i=10; i>=0; i--){
+            printf("%d\n",i+1);
+        }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
