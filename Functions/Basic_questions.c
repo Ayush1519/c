@@ -9,6 +9,9 @@ int main() {
         for(i=10; i>=0; i--){
             printf("%d\n",i+1);
         }
+        for(i=0;i<=10;i++){
+            printf("%d\n",i+1);
+        }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
