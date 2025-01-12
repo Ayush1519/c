@@ -12,6 +12,13 @@ int main() {
         for(i=0;i<=10;i++){
             printf("%d\n",i+1);
         }
+    char j;
+    char A = 'A',Z = 'Z';
+
+    for(j=A;j<=Z;j++){
+        printf("%c\n",j);
+
+    }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
