@@ -37,6 +37,16 @@ int main() {
         }
         printf("\n");
     }
+    for(i=1;i<=4;i++){
+
+        for(spaces=1;spaces<=4-i;spaces++){
+            printf(" ");
+        }
+        for(j=1;j<=(2*i-1);j++){
+            printf("*");
+        }
+        printf("\n");
+    }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
