@@ -19,6 +19,10 @@ int main() {
         printf("%c\n",j);
 
     }
+    for(j=Z;j>=A;j--){
+        printf("%c\n",j);
+
+    }
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
