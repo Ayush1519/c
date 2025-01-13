@@ -19,6 +19,7 @@ int main() {
                break;
         case 7:printf("Sunday\n");
                break;
+    }
 
 int age;
 printf("Enter age: ");
@@ -38,9 +39,16 @@ int i=0;
 while(i<=5){
     printf("%d\n",i);
     i++;
+
 }
-        return 0;
+int i=0;
+do{
+   printf("Hello people\n");
+   i++;
+} while(i>=5);
+
+return 0;
         
-    }
+
 }
 
