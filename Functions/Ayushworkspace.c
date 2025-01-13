@@ -20,7 +20,14 @@ int main() {
         case 7:printf("Sunday\n");
                break;
 
+int age;
+printf("Enter age: ");
+scanf("%d",&age);
+
+age>=18?printf("Is an adult"):printf("Not an adult");
+
         return 0;
         
     }
 }
+
