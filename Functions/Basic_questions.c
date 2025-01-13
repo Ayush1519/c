@@ -76,6 +76,7 @@ int main() {
         printf("Invaild marks entered");
     }
     
+    
 
     printf("Ayush singh");
 
