@@ -66,6 +66,9 @@ for(int i=0;i<=10;i++ ){
        printf("%d\n",n*i);
 }
 
+for(int j=10;j>=1;j--){
+       printf("%d\n",n*j);
+}
 return 0;
 }
 
