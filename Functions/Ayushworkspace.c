@@ -47,6 +47,17 @@ do{
    i++;
 } while(i>=5);
 
+int n;
+printf("Enter number: ");
+scanf("%d",&n);
+
+int sum = 0;
+for(int i=0;i<=n;i++){
+       sum = sum + i;
+}
+
+printf("Sum is:%d\n",sum);
+
 return 0;
         
 
