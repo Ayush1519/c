@@ -69,6 +69,11 @@ for(int i=0;i<=10;i++ ){
 for(int j=10;j>=1;j--){
        printf("%d\n",n*j);
 }
+int fact=1;
+for(int i=0;i<=n;i++){
+       fact=fact*i;
+}
+printf("Factorial is:%d\n",fact);
 return 0;
 }
 
