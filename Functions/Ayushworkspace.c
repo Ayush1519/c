@@ -74,6 +74,14 @@ for(int i=0;i<=n;i++){
        fact=fact*i;
 }
 printf("Factorial is:%d\n",fact);
+
+for(int i=1;i<=5;i++){
+       if(i==3){
+       break;
+       }
+       printf("%d\n",i);
+}
+printf("end");
 return 0;
 }
 
