@@ -59,7 +59,10 @@ for(int i=0;i<=n;i++){
 printf("Sum is:%d\n",sum);
 
 return 0;
-        
-
+int sum=0;        
+for(int j=n;j>=1;j--){
+       sum=sum+j;
+}
+printf("Sum is: %d\n",sum);
 }
 
