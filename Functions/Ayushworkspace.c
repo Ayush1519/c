@@ -24,7 +24,8 @@ int main() {
        b=c;
        printf("%d\n",a);
        printf("%d\n",b);
-
+       
+       int sum =a+b;
 
     int day;
     printf("Enter day(1-7): ");
