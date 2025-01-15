@@ -8,6 +8,8 @@ int main() {
        printString(secondName);
        puts(firstName);
        puts(secondName);
+
+       fgets(firstName);
     int day;
     printf("Enter day(1-7): ");
     scanf("%d",&day);
