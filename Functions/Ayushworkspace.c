@@ -10,6 +10,12 @@ int main() {
        puts(secondName);
 
        fgets(firstName);
+
+       do{
+              printf("%d",i);
+              i++;
+       }while(int i = 2)
+       
     int day;
     printf("Enter day(1-7): ");
     scanf("%d",&day);
