@@ -15,7 +15,17 @@ int main() {
               printf("%d",i);
               i++;
        }while(int i = 2)
-       
+
+       int a=5;
+       int b=4;
+       int c;
+       c=a;
+       a=b;
+       b=c;
+       printf("%d\n",a);
+       printf("%d\n",b);
+
+
     int day;
     printf("Enter day(1-7): ");
     scanf("%d",&day);
