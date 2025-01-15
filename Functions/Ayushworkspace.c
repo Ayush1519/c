@@ -1,5 +1,11 @@
 #include <stdio.h>
+void printString(char arr[]);
 int main() {
+       char firstName = {"AYUSH"};
+       char secondName = {"SINGH"};
+
+       printString(firstName);
+       printString(secondName);
     int day;
     printf("Enter day(1-7): ");
     scanf("%d",&day);
@@ -85,3 +91,9 @@ printf("end");
 return 0;
 }
 
+void printString(char arr[]){
+       for(int i=0;arr[i] != 0;i++){
+              printf("%c",arr[i]);
+       }
+     printf("\n");
+}
