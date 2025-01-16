@@ -1,6 +1,6 @@
 #include<stdio.h>
 //Factorial program
- int factorial(int n) {
+ int factorial(int n) {//function
 
 if(n == 1){
    return 1;
