@@ -7,7 +7,9 @@ int main() {
        printf("%d\n",sum);
        int a=8;
        int b=5;
-       substraction=a-b;
+       int substraction=a-b;
+       int multiplication=a*b;
+       printf("%d\n",multiplication);
        printf("%d\n",substraction);
        char firstName = {"AYUSH"};
        char secondName = {"SINGH"};
