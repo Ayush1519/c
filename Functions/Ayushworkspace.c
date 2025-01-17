@@ -9,6 +9,8 @@ int main() {
        int b=5;
        int substraction=a-b;
        int multiplication=a*b;
+       int division=a/b;
+       printf("%d\n",division);
        printf("%d\n",multiplication);
        printf("%d\n",substraction);
        char firstName = {"AYUSH"};
