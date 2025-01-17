@@ -1,6 +1,10 @@
 #include <stdio.h>
 void printString(char arr[]);
 int main() {
+       int a=5;
+       int b=6;
+       int sum =a+b;
+       printf("%d\n",sum);
        char firstName = {"AYUSH"};
        char secondName = {"SINGH"};
 
