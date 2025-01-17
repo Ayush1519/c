@@ -5,6 +5,10 @@ int main() {
        int b=6;
        int sum =a+b;
        printf("%d\n",sum);
+       int a=8;
+       int b=5;
+       substraction=a-b;
+       printf("%d\n",substraction);
        char firstName = {"AYUSH"};
        char secondName = {"SINGH"};
 
