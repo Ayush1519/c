@@ -7,7 +7,7 @@
 
 // Link
 #include <stdio.h>      
-
+double convertTemp(double celsius);
 // Definition
 #define X 20 
 
@@ -48,6 +48,16 @@ float calcPercentage(int science, int maths, int sanskrit) {
 }
 
 
+int main(){
+       double far=convertTemp(37);
+       printf("far:%.6f\n",far);
+       return 0;
+}
+double convertTemp(double celsius) {
+       double far =celsius*(9.0/5.0)+32;
+       return far;
+ }
+
 
 void function()
 {
@@ -55,7 +65,8 @@ void function()
     printf("%d", x);
 }
 
-int main() { function(); }
+int main() 
+{ function(); }
 }
 
 // Subprogram
