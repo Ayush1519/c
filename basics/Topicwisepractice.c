@@ -24,9 +24,14 @@ int main(void)
 // function.
 
 float calcPercentage(int science, int maths, int sanskrit);  // Use float for precision
-
+void reverse(int arr[],int n);
+void printArr(int arr[],int n);
 int main() {
     int sc, maths, sanskrit;
+    int arr[]={1,2,3,4,5};
+    reverse(arr,5);
+    printArr(arr,5);
+   
 
     // Ask the user for input
     printf("Enter marks for Science: ");
@@ -67,6 +72,23 @@ double convertTemp(double celsius) {
        double far =celsius*(9.0/5.0)+32;
        return far;
  }
+
+
+void printArr(int arr[],int n){
+    for(int i=0;i<n;i++){
+        printf("%d\t",arr[i]);
+    }
+    printf("\n");
+}
+
+void reverse(int *arr, int n) {
+    for(int i=0;i<n/2;i++){
+    int firstval=arr[i];
+    int secondval=arr[n-i-1];
+    arr[i]=secondval;
+    arr[n-i-1]=firstval;
+    }
+}
 
 
 void function()
