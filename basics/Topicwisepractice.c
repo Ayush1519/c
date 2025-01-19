@@ -26,6 +26,14 @@ int main(void)
 float calcPercentage(int science, int maths, int sanskrit);  // Use float for precision
 void reverse(int arr[],int n);
 void printArr(int arr[],int n);
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+
+    printf("Factorial of %d is:%d\n", n,factorial(n));
+
+    return 0;
+}
 int main() {
         int sum=0, num;
     printf("Enter 10 numbers:\n");
