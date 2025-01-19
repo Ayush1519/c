@@ -35,7 +35,23 @@ void printArr(int arr[],int n);
     return 0;
 }
 int main() {
-        int sum=0, num;
+
+    int n;
+//     printf("Enter n: ");
+//     scanf("%d",&n);
+//     for(int i=0;i<n;i++){
+//         for(int j=0;j<=i;j++){
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             printf("%d",j);
+//         }
+//         printf("\n");
+//     }
+    int sum=0, num;
     printf("Enter 10 numbers:\n");
     for(int i=0;i<10;i++){
         scanf("%d",&num);
