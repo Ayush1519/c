@@ -57,6 +57,14 @@ int main() {
         printf("%d\n",n*i);
     }
 
+    int n;
+    printf("Enter a number: ");
+    scanf("%d",&n);
+
+    printf("Factorial of %d is:%d\n", n,factorial(n));
+
+    return 0;
+}
     printf("\nSum of the numbers: %d\n", sum);
     printf("Average of the numbers: %.2f\n", average);
 
