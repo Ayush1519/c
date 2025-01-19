@@ -27,6 +27,15 @@ float calcPercentage(int science, int maths, int sanskrit);  // Use float for pr
 void reverse(int arr[],int n);
 void printArr(int arr[],int n);
 int main() {
+        int sum=0, num;
+    printf("Enter 10 numbers:\n");
+    for(int i=0;i<10;i++){
+        scanf("%d",&num);
+        sum += num;
+    }
+
+    printf("Sum: %d\nAnerage: %.2f\n", sum, sum/10.0);
+
     int sc, maths, sanskrit;
     int arr[]={1,2,3,4,5};
     reverse(arr,5);
