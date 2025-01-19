@@ -49,6 +49,14 @@ int main() {
 
     average=(float)sum/10;
 
+    int n;
+    printf("Enter n: ");
+    scanf("%d",&n);
+
+    for(int i=1;i<=10;i++){
+        printf("%d\n",n*i);
+    }
+
     printf("\nSum of the numbers: %d\n", sum);
     printf("Average of the numbers: %.2f\n", average);
 
