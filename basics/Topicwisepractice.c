@@ -36,6 +36,22 @@ int main() {
 
     printf("Sum: %d\nAnerage: %.2f\n", sum, sum/10.0);
 
+    int numbers[10];
+    int sum=0;
+    float average;
+
+    printf("Enter 10 numbers:\n");
+    for(int i=0;i<10;i++){
+        printf("Enter numbers %d: ",i+1);
+        scanf("%d", &numbers[i]);
+        sum += numbers[i];
+    }
+
+    average=(float)sum/10;
+
+    printf("\nSum of the numbers: %d\n", sum);
+    printf("Average of the numbers: %.2f\n", average);
+
     int sc, maths, sanskrit;
     int arr[]={1,2,3,4,5};
     reverse(arr,5);
