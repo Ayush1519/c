@@ -59,10 +59,15 @@ int main() {
         printf("Invalid input entered.Please enter different value\n");
     }
 
-    int a=0;
+    int a=40;
     int sum=1;
     sum+=a;
+     
 
+    int multiplication=5;
+    int division=8;
+    multiplication*=a;
+    division /= a;
     int n;
 //     printf("Enter n: ");
 //     scanf("%d",&n);
