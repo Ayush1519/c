@@ -35,6 +35,9 @@ void printArr(int arr[],int n);
     return 0;
 }
 int main() {
+    int a,b, sum;
+    sum = a+b;
+    
 
     int n;
 //     printf("Enter n: ");
