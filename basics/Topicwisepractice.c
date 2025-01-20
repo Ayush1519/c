@@ -58,6 +58,11 @@ int main() {
     } else{
         printf("Invalid input entered.Please enter different value\n");
     }
+
+    int a=0;
+    int sum=1;
+    sum+=a;
+
     int n;
 //     printf("Enter n: ");
 //     scanf("%d",&n);
