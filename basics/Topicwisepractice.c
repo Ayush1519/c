@@ -37,8 +37,27 @@ void printArr(int arr[],int n);
 int main() {
     int a,b, sum;
     sum = a+b;
-    
 
+    char ch;
+    printf("Enter an alphabet\n: ");
+    scanf("%c", &ch);
+
+    ch=(ch>='A'|| ch<='Z')?ch+32:ch;
+
+    switch(ch):
+    CASE 'a':
+    CASE 'e':
+    CASE 'i':
+    CASE 'o':
+    CASE 'u':
+    break;
+    printf("%c is a vowel:%d\n", ch);
+  default:
+    if((ch>='a'|| ch<='z')){
+        printf("%c is a consonant:%d\n",ch);
+    } else{
+        printf("Invalid input entered.Please enter different value\n");
+    }
     int n;
 //     printf("Enter n: ");
 //     scanf("%d",&n);
