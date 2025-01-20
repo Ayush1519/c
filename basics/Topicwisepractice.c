@@ -63,7 +63,7 @@ int main() {
     int sum=1;
     sum+=a;
      
-
+    int square = a**a;
     int multiplication=5;
     int division=8;
     multiplication*=a;
