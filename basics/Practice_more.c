@@ -98,3 +98,10 @@ int main() {
     printf("Multiplcation of x with y gives:%d\n",multiplication);
     printf("division of x with y gives:%d\n",division);
 }
+
+for(int i=0;i<n;i++){
+    for(int j=0;j<=i;j++){
+        printf("* ");
+    }
+    printf("\n");
+}
