@@ -112,3 +112,10 @@ for(int i=0;i<n;i++){
     }
     printf("\n");
 }
+
+for(char i='A';i<'E';i++){
+    for(char j='A';j<=i;j++){
+        printf(" ");
+    }
+    printf("\n");
+}
