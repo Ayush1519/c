@@ -114,9 +114,9 @@ for(int i=0;i<n;i++){
     printf("\n");
 }
 
-for(char i='A';i<'E';i++){
-    for(char j='A';j<=i;j++){
-        printf(" ");
+for(int i=0;i<n;i++){
+    for(int j=0;j<=i;j++){
+        printf("%c ", j+'A');
     }
     printf("\n");
 }
@@ -130,7 +130,17 @@ for(int i=n;i>=0;i--){
 
 for(int i=n;i>=0;i--){
     for(int j=0;j>=i;j--){
+        printf("%d ", j-1);
+    }
+    printf("\n");
+}
+
+for(int i=0;i<n;i++){
+    for(int j=0;j<2*i;j++){
         printf(" ");
+    }
+    for(int k=0; k<2*(n-i)-1;k++){
+    printf("%d ", k+1);
     }
     printf("\n");
 }
