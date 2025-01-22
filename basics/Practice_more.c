@@ -179,7 +179,7 @@ void swap(int var1, int var2)
           var1, var2);
           return 0;
     }
-    #include <stdio.h>
+#include <stdio.h>
 
 void swap(int *var1, int *var2)
 {
