@@ -130,3 +130,58 @@ void printString(char arr[]){
        }
      printf("\n");
 }
+
+    // Define variables
+    char name[50];
+    int age;
+    float height;
+
+    // Open the file for writing (creating a new file or overwriting existing)
+    FILE *file = fopen("person.txt", "w");
+    
+    if (file == NULL) {
+        printf("Error opening file for writing.\n");
+        return 1; // Return if there is an error opening the file
+    }
+
+    // Prompt user for input
+    printf("Enter name: ");
+    fgets(name, sizeof(name), stdin);  // Read name with spaces
+    name[strcspn(name, "\n")] = '\0'; // Remove newline character if it is read
+
+    printf("Enter age: ");
+    scanf("%d", &age);
+
+    printf("Enter height (in meters): ");
+    scanf("%f", &height);
+
+    // Write the data to the file using fprintf
+    fprintf(file, "Name: %s\n", name);
+    fprintf(file, "Age: %d\n", age);
+    fprintf(file, "Height: %.2f meters\n", height);
+
+    // Close the file after writing
+    fclose(file);
+
+    // Reopen the file for reading
+    file = fopen("person.txt", "r");
+    
+    if (file == NULL) {
+        printf("Error opening file for reading.\n");
+        return 1; // Return if there is an error opening the file
+    }
+
+    // Read the data back from the file using fscanf
+    printf("\nData read from the file:\n");
+    char buffer[100];  // Temporary buffer to read the lines
+
+    // Read and print each line from the file
+    while (fgets(buffer, sizeof(buffer), file)) {
+        printf("%s", buffer);
+    }
+
+    // Close the file after reading
+    fclose(file);
+
+    return 0;
+}
