@@ -189,6 +189,11 @@ void printString(char arr[]){
     scanf("%d", &n);
 
     printTable(n);
+    int age =25;
+    int *ptr =&age;
+    int _age= *ptr;
+
+    printf("%d", _age);
 
     return 0;
 }
