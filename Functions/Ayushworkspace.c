@@ -197,6 +197,9 @@ void printString(char arr[]){
     printf("%p", &age);
     printf("%u", &age);
 
+    printf("%u", *ptr);
+    printf("%u", &ptr);
+
     return 0;
 }
 
