@@ -199,6 +199,10 @@ void printString(char arr[]){
 
     printf("%u", *ptr);
     printf("%u", &ptr);
+    int x;
+    int *ptr;
+    printf("x = %d\n", x);
+    printf("*ptr = %d\n", *ptr);
 
     return 0;
 }
