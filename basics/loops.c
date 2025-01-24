@@ -28,5 +28,8 @@ int main(){
     int num = 5;
     printf("Factorial of %d is %d" ,num,factorial(num));
     return 0;
+
+    int i=8;
+    cout<<i<<endl;
 }
 
