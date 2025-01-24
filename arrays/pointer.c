@@ -5,7 +5,7 @@ unsigned int _age =25;
  
 int main(){
     unsigned int age = 22;
-    unsigned int *ptr = &age;
+    unsigned int *ptr = &age;//pointer 
 
     unsigned int _age = 25;
     unsigned int *_ptr = &_age;
