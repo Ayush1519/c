@@ -146,6 +146,18 @@ float calcPercentage(int science, int maths, int sanskrit) {
     for(i = 0 ; i < 3 ; i++) 
     {
         printf("%d\t",arr[i]);
+        scanf("%d", &arr[i]);    
+    }
+        int arr[4];
+    int i, j;
+    printf("Enter array element");
+    for(i = 0; i < 4; i++)
+    {
+        scanf("%d", &arr[i]);    //Run time array initialization
+    }
+    for(j = 0; j < 4; j++)
+    {
+        printf("%d\n", arr[j]);
     }
 
 
