@@ -140,6 +140,15 @@ float calcPercentage(int science, int maths, int sanskrit) {
        printf("%d\n",marks[0][0]);
 
     int n, i;
+
+    int i;
+    int arr[] = {2, 3, 4};      // Compile time array initialization
+    for(i = 0 ; i < 3 ; i++) 
+    {
+        printf("%d\t",arr[i]);
+    }
+
+
     
     printf("Enter the number of terms: ");
     scanf("%d", &n);
