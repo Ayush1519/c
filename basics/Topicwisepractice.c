@@ -15,6 +15,10 @@ void function()
 int main(void)       
 {
     \* Welcome people *\
+
+    int a[]={2,3,4,5,6};
+    strlen(int a[i]);
+    int a[2]=5;
   int y = 55;
   printf("Sum: %d", sum(y));
     int n;
