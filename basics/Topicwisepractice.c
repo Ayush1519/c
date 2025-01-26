@@ -19,6 +19,9 @@ int main(void)
     int a[]={2,3,4,5,6};
     strlen(int a[i]);
     int a[2]=5;
+    int b[7]={2,9,8,7,6,5,4};
+    int b={"Ayush singh"};
+    fgets(b);
   int y = 55;
   printf("Sum: %d", sum(y));
     int n;
