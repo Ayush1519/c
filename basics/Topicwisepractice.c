@@ -14,6 +14,7 @@ void function()
 
 int main(void)       
 {
+    \* Welcome people *\
   int y = 55;
   printf("Sum: %d", sum(y));
     int n;
