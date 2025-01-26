@@ -24,6 +24,7 @@ int main(void)
     fgets(b);
     int c={"Ayush singh the undergrad"};
     fgets(c);
+    // 
   int y = 55;
   printf("Sum: %d", sum(y));
     int n;
