@@ -22,6 +22,8 @@ int main(void)
     int b[7]={2,9,8,7,6,5,4};
     int b={"Ayush singh"};
     fgets(b);
+    int c={"Ayush singh the undergrad"};
+    fgets(c);
   int y = 55;
   printf("Sum: %d", sum(y));
     int n;
