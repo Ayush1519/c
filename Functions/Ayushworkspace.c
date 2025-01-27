@@ -226,6 +226,15 @@ void printString(char arr[]){
     char str[] = "AyushSingh";
 
     printStr(str);
+    char str1[20]="GeeksforGeeks";
+
+    char *ptr=str;
+
+    while(*ptr != '\0'){
+        printf("%c", *ptr);
+
+        ptr++;
+    }
 
     return 0;
 }
