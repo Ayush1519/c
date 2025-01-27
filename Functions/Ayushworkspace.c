@@ -1,6 +1,7 @@
 #include <stdio.h>
 void printString(char arr[]);
 void printTable(int n);
+#define MAX 50
 int main() {
        int a=5;
        int b=6;
@@ -209,6 +210,16 @@ void printString(char arr[]){
     scanf("%s", str);
 
     printf("%s", str);
+
+    char str[MAX];
+
+    // MAX Size if 50 defined
+    fgets(str, MAX, stdin);
+
+    printf("String is: \n");
+
+    // Displaying Strings using Puts
+    puts(str);
 
     return 0;
 }
