@@ -204,6 +204,12 @@ void printString(char arr[]){
     printf("x = %d\n", x);
     printf("*ptr = %d\n", *ptr);
 
+    char str[50];
+
+    scanf("%s", str);
+
+    printf("%s", str);
+
     return 0;
 }
 
