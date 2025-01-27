@@ -2,6 +2,8 @@
 void printString(char arr[]);
 void printTable(int n);
 #define MAX 50
+void printStr(char str[]) {printf(String is:%s,str);
+}
 int main() {
        int a=5;
        int b=6;
@@ -220,6 +222,10 @@ void printString(char arr[]){
 
     // Displaying Strings using Puts
     puts(str);
+
+    char str[] = "AyushSingh";
+
+    printStr(str);
 
     return 0;
 }
