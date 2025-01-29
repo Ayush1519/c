@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     // // Define variables
     // char name[50];
@@ -68,7 +67,7 @@ int main() {
 
     printf("Read from file:\n");
     printf("Name: %s\n",name);
-    printf("Age: %c\n", age);
+    printf("Age: %d\n", age);
     printf("Height: %.1f\n", height);
 
     return 0;
