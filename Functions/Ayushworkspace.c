@@ -260,7 +260,6 @@ void printString(char arr[]){
     printf("Data successfully written in yhe file'File.txt'.\n");
     printf("The file is now closed.");
     
-
     FILE *fptr;
     fptr=fopen("file.txt", "w");
     if(fptr == NULL){
