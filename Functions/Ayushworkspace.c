@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 void printString(char arr[]);
 void printTable(int n);
 #define MAX 50
@@ -241,6 +242,22 @@ void printString(char arr[]){
   
     for (int i = 0; i < 3; i++)
         printf("%s\n", arr[i]);
+           FILE *filepointer;
+    char datatobewritten[50]="Welcome to my workspace.";
+
+    filepointer=fopen("File.txt", "w");
+    if(filepointer==NULL){
+        printf("The File 'File.txt' was not found.");
+    }
+    else{
+        printf("The File is now opened.\n");
+    }
+    if(strlen(datatobewritten)>0){
+        fputs(datatobewritten, filepointer);
+        fputs("\n", filepointer);
+    } fclose(filepointer);
+    printf("Data successfully written in yhe file'File.txt'.\n");
+    printf("The file is now closed.");
 
     return 0;
 }
