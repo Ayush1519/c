@@ -259,7 +259,18 @@ void printString(char arr[]){
     } fclose(filepointer);
     printf("Data successfully written in yhe file'File.txt'.\n");
     printf("The file is now closed.");
+    
 
+    FILE *fptr;
+    fptr=fopen("file.txt", "w");
+    if(fptr == NULL){
+        printf("File not opened. The program will exit now");
+        exit(0);
+    }
+    else{
+        printf("File created successfully.");
+    }
+    fclose(fptr);
     return 0;
 }
 
