@@ -269,6 +269,7 @@ void printString(char arr[]){
     else{
         printf("File created successfully.");
     }
+    //fclose is used to close the file.
     fclose(fptr);
     return 0;
 }
