@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-void printString(char arr[]);
+void printString(char arr[]);//printing String
 void printTable(int n);
 #define MAX 50
 void printStr(char str[]) {printf(String is:%s,str);
