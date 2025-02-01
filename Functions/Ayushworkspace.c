@@ -23,6 +23,8 @@ int main() {
        ptr= &a;
        printf("ptr=%p\n", ptr);
        printf("ptr=%d\n", *ptr);
+       int *s= "Ayush";
+       printf("%s", s);
        int substraction=a-b;
        int multiplication=a*b;
        int division=a/b;
