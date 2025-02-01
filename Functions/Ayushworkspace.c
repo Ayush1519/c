@@ -18,6 +18,11 @@ int main() {
        printf("%d\n", m);
        printf("%p\n", &m);
        printf("%p\n", ptr);
+       int a=8;
+       int *ptr;
+       ptr= &a;
+       printf("ptr=%p\n", ptr);
+       printf("ptr=%d\n", *ptr);
        int substraction=a-b;
        int multiplication=a*b;
        int division=a/b;
