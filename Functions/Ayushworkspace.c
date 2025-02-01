@@ -13,6 +13,11 @@ int main() {
        printf("%d\n",sum);
        int a=8;
        int b=5;
+       int m =5;
+       int *ptr = &m;
+       printf("%d\n", m);
+       printf("%p\n", &m);
+       printf("%p\n", ptr);
        int substraction=a-b;
        int multiplication=a*b;
        int division=a/b;
