@@ -39,6 +39,13 @@ int main() {
        printf("q++ = %u\n", q); 
        q--;
        printf("q-- = %u\n", q);
+       char c = 'a';
+       char *r = &c;
+       printf("r = %u\n", r);   
+       r++;
+       printf("r++ = %u\n", r);   
+       r--;
+       printf("r-- = %u\n", r);
        int substraction=a-b;
        int multiplication=a*b;
        int division=a/b;
