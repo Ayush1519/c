@@ -25,6 +25,13 @@ int main() {
        printf("ptr=%d\n", *ptr);
        int *s= "Ayush";
        printf("%s", s);
+       int a = 22;
+       int *p = &a;
+       printf("p = %u\n", p); 
+       p++;
+       printf("p++ = %u\n", p);
+       p--;
+       printf("p-- = %u\n", p);
        int substraction=a-b;
        int multiplication=a*b;
        int division=a/b;
