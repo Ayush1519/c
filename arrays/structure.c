@@ -26,7 +26,7 @@ int main() {
     strcat(first1str,secondstr);
     puts(first1str);
     
-    char name[] = "Ayush";
+    char name[] = "Ayush";//character name declared
     int length = strlen(name);
     printf("Length is: %d",length);
     return 0;
