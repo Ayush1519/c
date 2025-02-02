@@ -80,7 +80,7 @@ int main() {
 
     printf("Ayush singh");
 
-    char str[100];
+    char str[100];//character initialization
     char ch;
     int i = 0;
     
