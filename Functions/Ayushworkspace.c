@@ -51,6 +51,16 @@ void stringcount(char* s)
     }
 }
 int main() {
+    char sentence[100]; 
+    printf("Enter a sentence: ");
+    fgets(sentence, sizeof(sentence), stdin);
+
+        for (int i = 0; sentence[i] != '\0'; i++) {
+        if (sentence[i] == '.') {
+            sentence[i] = ':';  // Replace '.' with ':'
+        }
+    }
+    printf("Modified sentence: %s", sentence);
     char s[1000] = "Geeks for Geeks";
     printf("String: %s", s);
     char s[1000] = "geeks for geeks", *p;
