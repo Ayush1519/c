@@ -27,6 +27,28 @@ void count_vowels_and_consonants(char* str){
 
 }
 int main() {
+    char s[1000] = "geeks for geeks", *p;
+    int vowels = 0, consonants = 0;
+ 
+    p = s;
+ 
+    while (*p) {
+        if ((*p >= 65 && *p <= 90)
+            || (*p >= 97 && *p <= 122)) {
+            if (*p == 'a' || *p == 'e' || *p == 'i'
+                || *p == 'o' || *p == 'u' || *p == 'A'
+                || *p == 'E' || *p == 'I' || *p == 'O'
+                || *p == 'U')
+                vowels++;
+            else
+                consonants++;
+        }
+        p++;
+    }
+ 
+    printf("String: %s", s);
+    printf("\nVowels: %d\n", vowels);
+    printf("Consonants: %d\n", consonants);
        char* str = "geeks for geeks"; 
        printf("String: %s", str); 
  
