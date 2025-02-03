@@ -304,6 +304,29 @@ void printString(char arr[]){
     }
     //fclose is used to close the file.
     fclose(fptr);
+        FILE *ptr;
+    char ch;
+
+    ptr = fopen("file.txt", "w");
+
+    if(ptr == NULL){
+        printf("Error in opening file!\n");
+        return 1;
+    }
+
+    printf("Enter characters (press enter to stop):\n");
+
+    while(1) {
+        ch= getchar();
+
+        if(ch == '\n') {
+            break;
+        }
+
+        fputc(ch, ptr);
+    }
+    fclose(ptr);
+    printf("Characters have been to 'filec.txt'.\n");
     return 0;
 }
 
