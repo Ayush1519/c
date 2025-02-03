@@ -5,8 +5,32 @@ void printString(char arr[]);//printing String
 void printTable(int n);
 #define MAX 50
 void printStr(char str[]) {printf(String is:%s,str);
+
+void count_vowels_and_consonants(char* str){
+    int vowels = 0, consonants = 0;
+    int i;
+    char ch;
+    for( i=0; str[i] != '\0'; i++){
+        ch = str[i];
+        if(ch == 'a'||ch == 'e'||ch =='i'||ch =='o'||ch =='u'
+        ||ch =='A'||ch =='E'||ch =='I'||ch =='0'||ch =='U')
+        vowels++;
+
+        else if(ch == ' ')
+            continue;
+    
+        else 
+            consonants++;
+    }
+    printf("\nVowels: %d", vowels); 
+    printf("\nConsonants: %d", consonants);
+
 }
 int main() {
+       char* str = "geeks for geeks"; 
+       printf("String: %s", str); 
+ 
+       count_vowels_and_consonants(str);
        int a=5;
        int b=6;
        int sum =a+b;
