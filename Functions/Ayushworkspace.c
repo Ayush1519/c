@@ -51,6 +51,7 @@ void stringcount(char* s)
     }
 }
 int main() {
+
     char sentence[100]; 
     printf("Enter a sentence: ");
     fgets(sentence, sizeof(sentence), stdin);
