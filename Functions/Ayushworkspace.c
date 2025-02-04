@@ -410,6 +410,11 @@ void printString(char arr[]){
     }
     fclose(ptr);
     printf("Characters have been to 'filec.txt'.\n");
+    int marks[5] = {90,92,97,95,94};
+
+        for(int i = 0; i < 5; i++) {
+        printf("Student %d: %d\n", i + 1, marks[i]);
+    }
     return 0;
 }
 
