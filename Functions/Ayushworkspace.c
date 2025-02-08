@@ -51,6 +51,19 @@ void stringcount(char* s)
     }
 }
 int main() {
+    printf("Enter the elements of the matrix: ");
+    for(int i=0; i<3; i++){
+        for(int j=0; j<3; j++){
+            scanf("%d\n", &matrix[i][j]);
+        }
+    }
+
+    printf("Transpose of the matrix is: ");
+        for(int i=0; i<3; i++){
+        for(int j=0; j<3; j++){
+            printf("%d\n", matrix[i][j]);
+        }
+    } 
 
     char sentence[100]; 
     printf("Enter a sentence: ");
