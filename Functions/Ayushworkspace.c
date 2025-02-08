@@ -50,7 +50,30 @@ void stringcount(char* s)
         stringcount(s);
     }
 }
+
+void swapNumbers(int *a, int*b){
+    int temp = *a;
+    *a=*b;
+    *b=temp;
+};
 int main() {
+    int a, b;
+    printf("Enter a: ");
+    scanf("%d", &a);
+
+    printf("Enter b: ");
+    scanf("%d", &b);
+
+    printf("Before swapping a and b are %d and %d\n", a, b);
+    swapNumbers(&a, &b);
+    printf("After swapping a and b are %d and %d", a, b);
+
+    return 0;
+
+
+
+
+
     printf("Enter the elements of the matrix: ");
     for(int i=0; i<3; i++){
         for(int j=0; j<3; j++){
@@ -64,6 +87,8 @@ int main() {
             printf("%d\n", matrix[i][j]);
         }
     } 
+
+
 
     char sentence[100]; 
     printf("Enter a sentence: ");
