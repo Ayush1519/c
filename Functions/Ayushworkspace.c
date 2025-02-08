@@ -56,6 +56,8 @@ void swapNumbers(int *a, int*b){
     *a=*b;
     *b=temp;
 };
+
+
 int main() {
     int n;
     printf("Enter n:");
