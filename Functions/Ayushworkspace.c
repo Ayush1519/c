@@ -57,6 +57,35 @@ void swapNumbers(int *a, int*b){
     *b=temp;
 };
 int main() {
+    int n;
+    printf("Enter n:");
+    scanf("%d", &n);
+
+    int matrix1[n][n];
+    int matrix2[n][n];
+
+    
+    printf("Enter the elements of the matrix: ");
+    for(int = 0; i < n; i++){
+        for(int j = 0; j = n; j++){
+            scanf("%d\n", &matrix1[i][j]);
+        }
+    }
+
+    printf("Enter the elements of the second matrix: ");
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            scanf("%d\n", &matrix2[i][j]);
+        }
+    }
+
+    printf("\nSum of the two matrix are\n:");
+    for(int i=0;i<n; i++){
+        for(int j =0 ;j<n; j++){
+            printf("%d\n", matrix[i][j] + matrix2[i][j]);
+        }
+    }
+
     int a, b;
     printf("Enter a: ");
     scanf("%d", &a);
