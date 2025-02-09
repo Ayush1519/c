@@ -59,6 +59,9 @@ void swapNumbers(int *a, int*b){
 
 
 int main() {
+    int a;
+    printf("Enter the number: ");
+    scanf("%d", &a);
     int n;
     printf("Enter n:");
     scanf("%d", &n);
