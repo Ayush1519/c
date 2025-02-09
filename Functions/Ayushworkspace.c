@@ -65,6 +65,10 @@ int main() {
     int b;
     printf("Enter the number: ");
     scanf("%d", &b);
+    int c;
+    c=a+b;
+    scanf("%d", &c);
+    printf("%d", c);
     int n;
     printf("Enter n:");
     scanf("%d", &n);
