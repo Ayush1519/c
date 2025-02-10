@@ -60,6 +60,7 @@ void swapNumbers(int *a, int*b){
 
 
 int main() {
+    printf("Namaste India");
     int a;
     printf("Enter the number: ");
     scanf("%d", &a);
