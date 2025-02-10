@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <c type>
 void printString(char arr[]);//printing String
 void printTable(int n);
 #define MAX 50
