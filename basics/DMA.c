@@ -6,9 +6,9 @@ int main() {
     int *ptr;//initialization of a pointer
     int n,i;
 
-    printf("Enter number of elements: ");
+    printf("Enter number of elements: ");//printing the elements
     scanf("%d", &n);
-    printf("Entered number of elements: %d\n",n);
+    printf("Entered number of elements: %d\n",n);//printfunction
 
     ptr = (int*)malloc(n * sizeof(int));
 
