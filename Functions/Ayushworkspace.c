@@ -60,6 +60,18 @@ void swapNumbers(int *a, int*b){
 
 
 int main() {
+    int sum; 
+    char name[50];
+    printf("Enter the length of the name: ");
+    scanf("%d", &sum);
+    if (sum > 50) {
+        printf("Name is too long! Max length is 50 characters.\n");
+        return 1;
+    } printf("Enter the name: ");
+    for (int i = 0; i < sum; i++) {
+        scanf(" %c", &name[i]);  
+    } name[sum] = '\0';
+    printf("The name is: %s\n", name);
     printf("Namaste India");
     printf("Hello world");
     printf("Bonjour");
