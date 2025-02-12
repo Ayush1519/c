@@ -103,6 +103,19 @@ int main() {
             printf("%d ", j);
         }
         printf("\n");
+        
+    int n;
+    printf("Enter the number of waves: ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= 2 * n; j++) {
+            if (j == i || j == 2 * n - i + 1) {
+                printf("* ");
+            } else {
+                printf("  ");
+            }
+        }
+        printf("\n");
     }
 
     printf("The name is: %s\n", name);
