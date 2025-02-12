@@ -92,6 +92,19 @@ int main() {
         }
         printf("\n");
     }
+    int n;
+    printf("Enter the number of rows: ");
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n - i; j++) {
+            printf(" ");
+        }
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", j);
+        }
+        printf("\n");
+    }
+
     printf("The name is: %s\n", name);
     printf("Namaste India");
     printf("Hello world");
