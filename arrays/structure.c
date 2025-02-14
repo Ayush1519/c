@@ -16,6 +16,12 @@ struct Person {
     float height;
 };
 
+void printPerson(struct Person p) {
+    printf("Name: %s\n", p.name);
+    printf("Age: %d\n", p.age);
+    printf("Height: %.2f\n", p.height);
+}
+
 
 int main() {
     char firststr[] = "Apple";
@@ -53,6 +59,9 @@ int main() {
     printf("Age: %d\n", person1.age);
     printf("Height: %.2f\n", person1.height);
 
+    
+    struct Person person1 = {"John Doe", 30, 5.9};
+    printPerson(person1);
 
     return 0;
 }
