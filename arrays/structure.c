@@ -46,6 +46,23 @@ void displayBookDetails(struct Book b) {
     printf("Price: %.2f\n", b.price);
 }
 
+#include <math.h>
+
+struct Shape {
+    char type[20];
+    float radius; 
+    float length;    
+    float breadth;  
+};
+
+float calculateCircleArea(struct Shape s) {
+    return M_PI * s.radius * s.radius;
+}
+
+float calculateRectangleArea(struct Shape s) {
+    return s.length * s.breadth;
+}
+
 
 
 int main() {
@@ -91,7 +108,26 @@ int main() {
     struct Book book1;
     inputBookDetails(&book1);
     displayBookDetails(book1);
+    
+    struct Shape shape1;
 
+    printf("Enter shape type (Circle/Rectangle): ");
+    fgets(shape1.type, sizeof(shape1.type), stdin);
+    
+    if (strncasecmp(shape1.type, "Circle", 6) == 0) {
+        printf("Enter radius of the circle: ");
+        scanf("%f", &shape1.radius);
+        
+        printf("Area of the circle: %.2f\n", calculateCircleArea(shape1));
+    } else if (strncasecmp(shape1.type, "Rectangle", 9) == 0) {
+        printf("Enter length of the rectangle: ");
+        scanf("%f", &shape1.length);
+        
+        printf("Enter breadth of the rectangle: ");
+        scanf("%f", &shape1.breadth);
+        
+        printf("Area of the rectangle: %.2f\n", calculateRectangleArea(shape1));
+    }
     return 0;
 }
 
