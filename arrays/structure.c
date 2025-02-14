@@ -22,6 +22,31 @@ void printPerson(struct Person p) {
     printf("Height: %.2f\n", p.height);
 }
 
+struct Book {
+    char title[100];
+    char author[50];
+    float price;
+};
+
+void inputBookDetails(struct Book *b) {
+    printf("Enter book title: ");
+    fgets(b->title, sizeof(b->title), stdin);
+    
+    printf("Enter author name: ");
+    fgets(b->author, sizeof(b->author), stdin);
+    
+    printf("Enter book price: ");
+    scanf("%f", &b->price);
+    getchar(); 
+}
+
+void displayBookDetails(struct Book b) {
+    printf("\nBook Title: %s", b.title);
+    printf("Author: %s", b.author);
+    printf("Price: %.2f\n", b.price);
+}
+
+
 
 int main() {
     char firststr[] = "Apple";
@@ -62,6 +87,10 @@ int main() {
     
     struct Person person1 = {"John Doe", 30, 5.9};
     printPerson(person1);
+
+    struct Book book1;
+    inputBookDetails(&book1);
+    displayBookDetails(book1);
 
     return 0;
 }
