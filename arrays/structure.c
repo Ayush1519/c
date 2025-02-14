@@ -34,6 +34,8 @@ int main() {
     char Name[] = "Ayush";//character name declared
     int length1 = strlen(Name);
     printf("Length is: %d",length1);
+
+
     return 0;
 }
 
