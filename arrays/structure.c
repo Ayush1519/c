@@ -10,6 +10,13 @@ int countLength(char arr[]) {
     return count-1;
 }
 
+struct Person {
+    char name[50];
+    int age;
+    float height;
+};
+
+
 int main() {
     char firststr[] = "Apple";
     char secstr[] = "Banana";
@@ -34,6 +41,17 @@ int main() {
     char Name[] = "Ayush";//character name declared
     int length1 = strlen(Name);
     printf("Length is: %d",length1);
+    
+
+    struct Person person1;
+
+    person1.age = 25;
+    person1.height = 5.9;
+    snprintf(person1.name, sizeof(person1.name), "John Doe");
+
+    printf("Name: %s\n", person1.name);
+    printf("Age: %d\n", person1.age);
+    printf("Height: %.2f\n", person1.height);
 
 
     return 0;
