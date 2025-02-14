@@ -63,6 +63,15 @@ float calculateRectangleArea(struct Shape s) {
     return s.length * s.breadth;
 }
 
+struct Student {
+    char name[50];
+    float math, science, english; 
+};
+
+float calculateAverage(struct Student s) {
+    return (s.math + s.science + s.english) / 3.0;
+}
+
 
 
 int main() {
@@ -128,6 +137,22 @@ int main() {
         
         printf("Area of the rectangle: %.2f\n", calculateRectangleArea(shape1));
     }
+
+    struct Student student1;
+
+    printf("Enter student name: ");
+    fgets(student1.name, sizeof(student1.name), stdin);
+    
+    printf("Enter math grade: ");
+    scanf("%f", &student1.math);
+    
+    printf("Enter science grade: ");
+    scanf("%f", &student1.science);
+    
+    printf("Enter english grade: ");
+    scanf("%f", &student1.english);
+
+    printf("\nAverage grade for %s: %.2f\n", student1.name, calculateAverage(student1));
     return 0;
 }
 
