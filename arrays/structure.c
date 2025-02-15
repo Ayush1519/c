@@ -4,7 +4,7 @@ int strcmp();
 int countLength(char arr[]);
 int countLength(char arr[]) {
     int count = 0;
-    for(int i=0; arr[i] != '\0'; i++) {
+    for(int i=0; arr[i] != '\0'; i++) {//loop for count variable
         count++;//count variable 
     }
     return count-1;
