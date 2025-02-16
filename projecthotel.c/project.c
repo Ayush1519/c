@@ -38,6 +38,7 @@ void sortByPrice(struct Hotel hotels[], int n) {
     }
 }
 
+
 void sortByName(struct Hotel hotels[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
