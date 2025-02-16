@@ -62,6 +62,7 @@ void sortByRating(struct Hotel hotels[], int n) {
     }
 }
 
+
 void printHotelsInCity(struct Hotel hotels[]) {
     char city[50];
     int hotelsFound = 0;
