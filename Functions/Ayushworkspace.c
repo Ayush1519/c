@@ -7,6 +7,7 @@ void printTable(int n);
 #define MAX 50
 void printStr(char str[]) {printf(String is:%s,str);
 
+
 void count_vowels_and_consonants(char* str){//function to count vowels and constants
     int vowels = 0, consonants = 0;
     int i;
@@ -58,8 +59,25 @@ void swapNumbers(int *a, int*b){
     *b=temp;
 };
 
+#include <stdio.h>
+
+unsigned int factorial(unsigned int N) {
+    int fact = 1, i;
+
+    // Loop from 1 to N to get the factorial
+    for (i = 1; i <= N; i++) {
+        fact *= i;
+    }
+
+    return fact;
+}
+
 
 int main() {
+    int N = 5;
+    int fact = factorial(N);
+    printf("Factorial of %d is %d", N, fact);
+
     int sum; 
     char name[50];
     printf("Enter the length of the name: ");
