@@ -72,9 +72,6 @@ unsigned int factorial(unsigned int N) {
     return fact;
 }
 
-#include <stdio.h>
-#include <string.h>
-
 // Function to multiply a string (representing a number)
 // by an integer
 void multiplyString(char num[], int factor) {
@@ -113,12 +110,22 @@ void factorialString(int N) {
 
     printf("Factorial of %d is %s", N, fact);
 }
+unsigned int factorial(unsigned int n) {
+  
+    // Base Case:
+    if (n == 1) {
+        return 1;
+    }
+
+
+    return n * factorial(n - 1);
+}
 
 
 int main() {
-    int N = 5;
+    int num = 5;
+    printf("Factorial of %d is %d", num, factorial(num));
     factorialString(N);
-    int N = 5;
     int fact = factorial(N);
     printf("Factorial of %d is %d", N, fact);
 
