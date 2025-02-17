@@ -88,7 +88,8 @@ void multiplyString(char num[], int factor) {
         carry = product / 10;
     }
 
-
+    // Handling the carry by adding digits to the front
+      // of the number
     while (carry) {
         for (int i = strlen(num); i >= 0; i--) {
             num[i + 1] = num[i];
