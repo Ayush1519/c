@@ -6,7 +6,7 @@ void printString(char arr[]);//printing String
 void printTable(int n);
 #define MAX 50
 void printStr(char str[]) {printf(String is:%s,str);
-
+//Some declarations
 
 void count_vowels_and_consonants(char* str){//function to count vowels and constants
     int vowels = 0, consonants = 0;
