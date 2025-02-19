@@ -2,7 +2,7 @@
 #include<string.h>
 
 struct student{
-    int roll;
+    int roll;//roll no declared
     float cgpa;
     char name[100];
 };
