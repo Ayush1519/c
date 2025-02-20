@@ -13,7 +13,7 @@ int main() {
     ptr = (int*)malloc(n * sizeof(int));
 
     if( ptr == NULL) {
-        printf("Memory not allocated.\n");
+        printf("Memory not allocated.\n");//print function
         exit(0);
     }
     else {
