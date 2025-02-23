@@ -69,7 +69,13 @@ int main() {
     printf("Name: %s\n",name);
     printf("Age: %d\n", age);
     printf("Height: %.1f\n", height);
-
+    
+    int a;
+    int b;
+    int sum;
+    sum = a+b;
+    scanf("%d", &sum);
+    printf("Sum",%d);
     return 0;
 }
 //End.
