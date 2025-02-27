@@ -5,6 +5,11 @@ void slice(char str[], int n, int m);
 int countVowel(char str[]);
 
 int main() {
+    int a;
+    int b;
+    int multiplication=a*b;
+    scanf("%d", &multipication);
+    printf("Multiplication is:%d",multiplication);
         int i=0;
         for(i=10; i>=0; i--){
             printf("%d\n",i+1);
