@@ -8,7 +8,7 @@ struct student{
 };
 
 int main() {
-    struct student s1= {21,9.4, "Ayush"};
+    struct student s1= {21,9.4, "Ayush"};//struct declared
     printf("student roll=%d\n",s1.roll);
 
     struct student *ptr=&s1;
