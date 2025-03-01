@@ -28,6 +28,7 @@ int main() {
         printf("%c\n",j);
 
     }
+    //Using some for loops to print different patterns
     int i;
     int j;
     for(i=0;i<=4;i++){
