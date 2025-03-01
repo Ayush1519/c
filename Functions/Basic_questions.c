@@ -52,6 +52,15 @@ int main() {
         }
         printf("\n");
     }
+
+    int x=2;
+    int y=4;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    int temp=x;
+    x=y;
+    y=temp;
+    printf("X and y are: %d%d", x,y);
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
