@@ -52,7 +52,7 @@ int main() {
         }
         printf("\n");
     }
-
+    // Swapping two varaibles
     int x=2;
     int y=4;
     scanf("%d", &x);
@@ -63,6 +63,7 @@ int main() {
     printf("X and y are: %d%d", x,y);
     
     printf("Hello this is my world of coding");
+
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
