@@ -150,6 +150,9 @@ int main() {
     int modulo=x%y;
     printf("Modulo is:%d",modulo);
 
+    int div=x/y;
+    printf("Division is:%d", div);
+
     return 0;
 }
 
