@@ -147,6 +147,8 @@ int main() {
     int y=65;
     scanf("%d", &x);
     scanf("%d", &y);
+
+    //Using modulo operator
     int modulo=x%y;
     printf("Modulo is:%d",modulo);
     //Using division 
