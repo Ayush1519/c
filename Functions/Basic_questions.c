@@ -149,10 +149,11 @@ int main() {
     scanf("%d", &y);
     int modulo=x%y;
     printf("Modulo is:%d",modulo);
-
+    //Using division 
     int div=x/y;
     printf("Division is:%d", div);
-
+    
+    //Using multiplication operator
     int Mul=x*x;
     printf("Multiplication x with itself is:%d",Mul );
     
