@@ -153,6 +153,10 @@ int main() {
     int div=x/y;
     printf("Division is:%d", div);
 
+    int Mul=x*x;
+    printf("Multiplication x with itself is:%d",Mul );
+    
+
     return 0;
 }
 
