@@ -143,6 +143,12 @@ int main() {
     printf("Sum is:%d",sum);
     printf("Multiplication is:%d",multiplication);
     
+    int x=23;
+    int y=65;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    int modulo=x%y;
+    printf("Modulo is:%d",modulo);
 
     return 0;
 }
