@@ -160,6 +160,12 @@ int main() {
     printf("Multiplication x with itself is:%d",Mul );
     
 
+    int x;
+    scanf("%d", &x);
+    for(int i=0; i<=n; i++){
+        printf("*");
+    }
+
     return 0;
 }
 
