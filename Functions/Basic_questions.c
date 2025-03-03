@@ -5,6 +5,7 @@ void slice(char str[], int n, int m);
 int countVowel(char str[]);
 
 int main() {
+    //Using multiplication operators
     int a;
     int b;
     int multiplication=a*b;
