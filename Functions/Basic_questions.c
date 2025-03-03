@@ -65,7 +65,7 @@ int main() {
     printf("X and y are: %d%d", x,y);
     
     printf("Hello this is my world of coding");
-
+    printf("Happy coding Learners");
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
