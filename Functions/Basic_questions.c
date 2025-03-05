@@ -187,6 +187,7 @@ void slice(char str[], int n, int m) {
 float originalamount,discountedamount,finalamount;
 int amount=0;
 
+//using if else statements to calculate the original amount
 if(amount<1000){
 }
 else if(amout>=1000&&amount<=5000){
@@ -196,8 +197,10 @@ else if(amount>5000){
     discountedamount=(originalamount *20)/100;
 }
 
+//calculating final amount
 finalamount=originalamount-discountedamount;
 
+//Printing the final amount
 printf("Original amount= %d\n",originalamount);
 printf("Discounted amount= %d\n",discountedamount);
 printf("Final amount= %d\n",finalamount);
