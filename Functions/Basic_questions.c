@@ -183,6 +183,7 @@ void slice(char str[], int n, int m) {
     puts(newstr);  // Print the sliced string
 }
 
+//Making a C program to give the final amount by calculating the discounted amount in the original amount
 float originalamount,discountedamount,finalamount;
 int amount=0;
 
