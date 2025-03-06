@@ -6,7 +6,7 @@ int countVowel(char str[]);
 
 int main() {
     //Using multiplication operators
-    int a;
+    int a;//variable declared
     int b;
     int multiplication=a*b;
     scanf("%d", &multipication);
