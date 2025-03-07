@@ -67,6 +67,14 @@ int main() {
     
     printf("Hello this is my world of coding");
     printf("Happy coding Learners");
+
+    int marks;
+    scanf("%d", &marks);
+
+    if(marks>50) {
+        printf("The student is passed: %d" ,marks);
+    }
+    
     int marks;
     printf("Enter marks(0-100): ");
     scanf("%d",&marks);
