@@ -29,6 +29,7 @@ struct vector {
     int y;
 };
 
+
 void clacSum(struct vector v1, struct vector v2, struct vector sum);
 
 struct complex {
@@ -42,7 +43,7 @@ typedef struct BankAccount {
 } acc ;
 
 int main() {
-
+    printf("Hello! Coders Welcome");
      struct student s1;
 
      strcpy(s1.name,"ayush");
