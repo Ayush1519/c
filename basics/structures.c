@@ -65,6 +65,7 @@ int main() {
      printf("roll no of s2 = %d\n", s2.roll);
      printf("roll no of s3 = %d\n", s3.roll);
 
+     // using struct to allocate memory using pointer
      struct student *ptr = &s1;
      printf("student.name = %s\n", (*ptr).name);
      printf("student.roll = %d\n", (*ptr).roll);
