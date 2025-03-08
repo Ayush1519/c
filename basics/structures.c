@@ -106,6 +106,7 @@ void calcSum(struct vector v1, struct vector v2, struct vector sum)  {
     sum.x = v1.x + v2.x;
     sum.y = v1.y + v2.y;
 
+//printing sum of both x and y
     printf("sum of x is: %d\n", sum.x);
     printf("sum of y is: %d\n", sum.y);
 }
