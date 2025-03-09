@@ -276,7 +276,11 @@ int main() {
 
 
 
-
+    
+    Printf("Hello World");
+    int Name;
+    Scanf("%d", &Name);
+    printf("The Name is: %d", Name);
     printf("Enter the elements of the matrix: ");
     for(int i=0; i<3; i++){
         for(int j=0; j<3; j++){
