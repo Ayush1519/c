@@ -1,9 +1,11 @@
 #include<stdio.h>
  
+//Declaring primitive data types
 unsigned int age =22;
 unsigned int _age =25;
  
-int main(){
+int main() { 
+    //Using pointer to store age
     unsigned int age = 22;
     unsigned int *ptr = &age;//pointer 
 
