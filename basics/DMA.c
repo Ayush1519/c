@@ -4,7 +4,7 @@
 int main() {
 
     int *ptr;//initialization of a pointer
-    int n,i;
+    int n,i;//variables
 
     printf("Enter number of elements: ");//printing the elements
     scanf("%d", &n);
