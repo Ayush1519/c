@@ -8,7 +8,7 @@ int main() {
     //Using multiplication operators
     int a;//variable declared
     int b;
-    int multiplication=a*b;
+    int multiplication=a*b;//variable declared
     scanf("%d", &multipication);
     printf("Multiplication is:%d",multiplication);
         int i=0;
