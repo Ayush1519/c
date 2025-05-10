@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Hotel {
+struct Hotel {//struct data sturcture
     char name[50];
     char city[50];
     int beds;
