@@ -3,7 +3,7 @@
 #include <string.h>
 
 struct Hotel {//struct data sturcture
-    char name[50];
+    char name[50];//char variable 
     char city[50];
     int beds;
     float price;
