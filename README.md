@@ -1,4 +1,5 @@
 # c
 Concepts of C programming language
 Questions on recursion,Arrays
-Questions on Factorial.Fibonacci
+Questions on Factorial,Fibonacci
+Strings
