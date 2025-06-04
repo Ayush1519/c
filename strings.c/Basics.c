@@ -43,7 +43,7 @@ int main() {
     float height;
 
     FILE *file= fopen("person.text", "w");
-    if(file==NULL){
+    if(file==NULL){//conditionals
         printf("Error opening file for writing.\n");
         return 1;
     }
