@@ -116,7 +116,7 @@ int main() {//main function
     ch = '\0';
     
     // Read the input string until newline
-    while(ch != '\n') {
+    while(ch != '\n') {//loop
         scanf("%c", &ch);
         if (ch != '\n') {
             str[i] = ch;
