@@ -1,5 +1,5 @@
 // C program for the above approach
-#include <math.h>
+#include <math.h>//library
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
