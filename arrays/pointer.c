@@ -4,7 +4,7 @@
 unsigned int age =22;
 unsigned int _age =25;
  
-int main() { 
+int main() { //main function
     //Using pointer to store age
     unsigned int age = 22;
     unsigned int *ptr = &age;//pointer 
