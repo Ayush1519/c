@@ -5,5 +5,6 @@
 //Strings
 //Conditionals,Loops
 //Sorting
+//DSA
 
 //LeetCode Questions-Day Wise practice questions
