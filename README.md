@@ -1,4 +1,4 @@
-# c
+# About C
 //Concepts of C Programming Language
 //Questions on recursion,Arrays-Bubble Sort,Merge Sort
 //Questions on Factorial,Fibonacci
