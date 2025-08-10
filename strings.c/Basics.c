@@ -38,7 +38,7 @@ int main() {
     // printf("Age: %d\n", age);
     // printf("Height: %.1f\n", height);
     
-    char name[50];
+    char name[50];//char array declared
     int age;
     float height;
 
