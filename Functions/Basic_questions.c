@@ -10,7 +10,7 @@ int main() {//main function
     int b;
     int multiplication=a*b;//variable declared
     scanf("%d", &multipication);
-    printf("Multiplication is:%d",multiplication);
+    printf("Multiplication is:%d",multiplication);//print function
         int i=0;
         for(i=10; i>=0; i--){
             printf("%d\n",i+1);
