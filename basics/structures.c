@@ -94,7 +94,7 @@ int main() {
 }
 
 void printInfo(struct student s1) {
-    printf("student info: \n");
+    printf("student info: \n");//printing the output
     printf("name = %s\n",s1.name);
     printf("roll no = %d\n",s1.roll);
     printf("cgpa = %f\n",s1.cgpa);
