@@ -49,7 +49,7 @@ int main() {
     }
 
     snprintf(name ,sizeof(name), "Ayush singh");
-    age = 19;
+    age = 19;//variable
     height = 5.9;
 
     fprintf(file,"Name: %s\nAge: %d\nHeight: %f\n", name, age, height);
