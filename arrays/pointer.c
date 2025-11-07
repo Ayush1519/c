@@ -15,7 +15,7 @@ int main() { //main function
     printf("%p\n", (void *)ptr);
     ptr++;
 
-    printf("%p\n", (void *)ptr);
+    printf("%p\n", (void *)ptr);//print function
     ptr--;
 
     printf("%p\n", (void *) ptr);
