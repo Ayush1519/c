@@ -40,7 +40,7 @@ int main() {
     
     char name[50];//char array declared
     int age;
-    float height;
+    float height;//float declared
 
     FILE *file= fopen("person.text", "w");
     if(file==NULL){//conditionals
