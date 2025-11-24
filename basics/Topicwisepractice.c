@@ -1,5 +1,5 @@
 
-#include <stdio.h>      
+#include <stdio.h>  //standard library    
 double convertTemp(double celsius);
 #define X 20 
 int sum(int y); 
