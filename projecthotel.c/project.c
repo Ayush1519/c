@@ -1,5 +1,5 @@
 #include <ctype.h>
-#include <stdio.h>
+#include <stdio.h>//standard library
 #include <string.h>
 
 struct Hotel {//struct data sturcture
