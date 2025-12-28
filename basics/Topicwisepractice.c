@@ -16,7 +16,7 @@ int main(void)
 {
     \* Welcome people *\
 
-    int a[]={2,3,4,5,6};
+    int a[]={2,3,4,5,6};//array declared
     strlen(int a[i]);
     int a[2]=5;
     int b[7]={2,9,8,7,6,5,4};
