@@ -1,6 +1,6 @@
 #include <ctype.h>
 #include <stdio.h>//standard library
-#include <string.h>
+#include <string.h>//standard library
 
 struct Hotel {//struct data sturcture
     char name[50];//char variable 
