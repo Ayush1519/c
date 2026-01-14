@@ -8,7 +8,7 @@ int fibonacci(int n) {
 }
 //main method
 int main() {
-    int n;
+    int n;//number declared
     printf("Enter the number of terms: ");
     scanf("%d", &n);
 
