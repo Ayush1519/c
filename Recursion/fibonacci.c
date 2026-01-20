@@ -9,7 +9,7 @@ int fibonacci(int n) {
 //main method
 int main() {
     int n;//number declared
-    printf("Enter the number of terms: ");
+    printf("Enter the number of terms: ");//print function
     scanf("%d", &n);
 
     printf("Fibonacci sequence: ");
