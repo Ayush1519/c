@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//standard library
 //Factorial program
  int factorial(int n) {//function
 
