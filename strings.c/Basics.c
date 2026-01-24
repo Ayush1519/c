@@ -76,6 +76,6 @@ int main() {
     sum = a+b;
     scanf("%d", &sum);
     printf("Sum",%d);
-    return 0;
+    return 0;//return statement
 }
 //End.
