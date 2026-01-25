@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//library function
 #include <string.h>
 #include <stdlib.h>
 #include <c type>
