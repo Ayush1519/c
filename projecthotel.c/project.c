@@ -16,7 +16,7 @@ struct Guest {
     int age;
 };
 
-void printHotels(struct Hotel hotel) {
+void printHotels(struct Hotel hotel) {//function
     printf("\nHotel Name: %s\n", hotel.name);
     printf("City: %s\n", hotel.city);
     printf("Total Beds: %d\n", hotel.beds);
