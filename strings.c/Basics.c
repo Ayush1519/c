@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//library
 int main() {
     // // Define variables
     // char name[50];
