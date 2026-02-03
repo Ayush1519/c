@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//libraries
 
 int main() {
     int n, i;
