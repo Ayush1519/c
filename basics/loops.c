@@ -3,7 +3,7 @@
  int factorial(int n) {//function
 
 if(n == 1){
-   return 1;
+   return 1;//return statement
 }
 
 return n * factorial(n-1);//returns function
