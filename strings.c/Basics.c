@@ -44,7 +44,7 @@ int main() {
 
     FILE *file= fopen("person.text", "w");
     if(file==NULL){//conditionals
-        printf("Error opening file for writing.\n");
+        printf("Error opening file for writing.\n");//print statement
         return 1;
     }
 
