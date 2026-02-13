@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//library function
 
 // Recursive function to find Fibonacci numbers
 int fibonacci(int n) {
